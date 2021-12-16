@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: git clone https://github.com/kaibob222/CICD.git
-      - run: sudo docker-compose up
+      - run: cd CICD && sudo docker-compose up
      
